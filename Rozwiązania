@@ -12,7 +12,7 @@ const uzywamy gdy nasza zmienna ma sie nie zmieniac, a let uzywamy gdy zmienna m
 
 #Zadanie 2.
 
-1. Number - (liczba) - Przykład: let liczba = 41;
+1. Number - (liczba) - Przykład: let a = 41;
 2. String - (tekst) - Przykład: let imie='Hania'
 3. Boolean - (prawda/fałsz) - Przykład: let czyJestSlonce = false;
 4. undefinded - (niezdefiniowane) - Przykład: let x;
@@ -24,23 +24,71 @@ Konkatenacja to połączenie dwóch stringów w jedno.
 Sposób 1:
 let pierwsza = 'aha';
 let druga = 'okej';
-let wynik = pierwsza+ ' ' + druga;
+let pierwszaidruga = pierwsza+ ' ' + druga;
+console.log(pierwszaidruga);
 
 Sposób 2:
-let mojWiek = 18;
-let wiadomosc
+let mojWiek = 15;
+let wiadomosc = `Mam ${mojWiek} lat`;
+console.log(wiadomosc);
+
 
 #Zadanie 4.
 
-
+Operator ++x zwiększa warość przed użyciem, a operator x++ po użyciu.
 
 #Zadanie 5.
 
-a) Wartość zmiennej 'a' po linii 3 wynosi 8.
-b) Wartość zmiennej 'b' po linii 4 wynosi 6.
+a) Wartość zmiennej 'a' po linii 3 wynosi: a + 5 = 8
+b) Wartość zmiennej 'b' po linii 4 wynosi b * 2 = 6
 c) W konsoli zostanie wyświetlony wynik działania, czyli 14.
 
 #Zadanie 6.
+
+Odpowiedź: Witaj, Jan! Masz 18 lat.
+
+#Zadanie 7.
+
+let cena = 100;
+const RABAT = 0.15;
+let poRabacie = (cena-cena*RABAT);
+let wynik = `Cena po rabacie wynosi ${poRabacie}`;
+
+console.log(cena);
+console.log(wynik);
+
+#Zadanie 8.
+
+let liczba = 17;
+if(liczba % 2){
+  document.write('Liczba jest parzysta');
+}else{
+  document.write('Liczba jest nieparzysta');
+}
+
+#Zadanie 9.
+
+const dlugosc = 5;
+const szerokosc = 8;
+let pole = (dlugosc*szerokosc);
+console.log(pole);
+
+#Zadanie 10.
+
+let licznik = 5;
+licznik++;
+console.log(licznik);
+licznik++;
+console.log(licznik);
+licznik--;
+console.log(licznik);
+
+#Zadanie 11.
+
+const sekundy = 135;
+let minuty = Math.floor(sekundy/60);
+document.write(`${minuty}min ${sekundy%60}s`);
+
 
 
 
