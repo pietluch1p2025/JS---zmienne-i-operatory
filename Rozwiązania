@@ -1,0 +1,48 @@
+#Imie i nazwisko: Hanna Pietluch 1P - technik programista
+
+#Zadanie 1.
+
+let to jest zmienna, którą da się zmienić np.
+let wiek = 19;
+
+const to zmienna, której nie da się zmienić np.
+const pi = 3.14;
+
+const uzywamy gdy nasza zmienna ma sie nie zmieniac, a let uzywamy gdy zmienna moze sie zmienic.
+
+#Zadanie 2.
+
+1. Number - (liczba) - Przykład: let liczba = 41;
+2. String - (tekst) - Przykład: let imie='Hania'
+3. Boolean - (prawda/fałsz) - Przykład: let czyJestSlonce = false;
+4. undefinded - (niezdefiniowane) - Przykład: let x;
+5. null - (puste) - Przykład: let nic = null;
+
+#Zadanie 3.
+
+Konkatenacja to połączenie dwóch stringów w jedno.
+Sposób 1:
+let pierwsza = 'aha';
+let druga = 'okej';
+let wynik = pierwsza+ ' ' + druga;
+
+Sposób 2:
+let mojWiek = 18;
+let wiadomosc
+
+#Zadanie 4.
+
+
+
+#Zadanie 5.
+
+a) Wartość zmiennej 'a' po linii 3 wynosi 8.
+b) Wartość zmiennej 'b' po linii 4 wynosi 6.
+c) W konsoli zostanie wyświetlony wynik działania, czyli 14.
+
+#Zadanie 6.
+
+
+
+
+
